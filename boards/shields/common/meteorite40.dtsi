@@ -184,6 +184,7 @@
 
         input-processors = <&sensor_rotation>,
                            <&scroll_layer_gate>,
-                           <&motion_scaler>;
+                           <&motion_scaler>,
+                           <&zip_temp_layer 5 10000>;;
     };
 };
