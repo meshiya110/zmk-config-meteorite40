@@ -1,6 +1,16 @@
 #include "../common/meteorite40.dtsi"
 #include "../common/meteorite40-usb.overlay"
 #include "meteorite40_low-layout.dtsi"
+#include <input/processors.dtsi>
+
+&zip_temp_layer {
+    excluded-positions = <
+        35 // 
+        25 // 
+        26 // 
+        36 // 
+    >;
+};
 
 &LOW_PROFILE_DEFAULT {
     transform = <&transform_low_default>;
