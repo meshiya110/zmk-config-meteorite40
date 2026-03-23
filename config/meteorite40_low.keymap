@@ -41,7 +41,7 @@
 #define JP_HANZEN       GRAVE             // 半角/全角
 
 &mt {
-    flavor = "tap-preferred"; // change hold to tap
+    flavor = "hold-preferred"; // change hold to tap
     tapping-term-ms = <200>;
     quick-tap-ms = <150>; // change 200 to 150
 };
